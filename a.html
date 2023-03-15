@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Student Survey Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="a.css">
+</head>
+
+<body>
+    <main class="container-fluid">
+        <form action="#">
+            <div align="center">
+                <h1>Student Survey Form</h1>
+
+                <div class="form-floating">
+        <input type="email" class="form-control" placeholder="abcs" />
+        <label for="form-label">Email</label>
+      </div>
+
+                
+
+                <div class="user">
+                    <input type="text" id="username" class="form-control form-control-sm" placeholder="User Name" size="35" maxlength="35"/>
+                    <label class="form-label" for="username"></label>
+                </div>
+
+                
+
+                <br><br>
+                <label>Enter Your Name:</label>
+                <input type="text" name="UserName" size="35" maxlength="35" value="username">
+
+                </br>
+                </br>
+                <label>Enter Department: </label>
+                <input type="text" name="UserName" size="35" maxlength="35" placeholder="Department">
+                </br>
+                </br>
+                </br>
+                <label>About Yourself:</label>
+                <textarea name="comments" cols="30" rows="4"></textarea>
+                </br>
+                </br>
+                <label>Do you exercise at home?</label>
+                <div class="radio">
+                    <input type="radio" name="abc" value="1" id="yes">
+                    <label for="yes"></label>
+                </div>
+                <div class="answer">Yes</div>
+
+                <div class="radio">
+                    <input type="radio" name="abc" value="2" id="no">
+                    <label for="no"></label>
+
+                </div>
+                <div class="answer">No</div>
+                </br>
+                </br>
+                <label>How do you like to read about your favourite topics?</label>
+                <p>
+                    <input type="checkbox" name="web">Web
+                    <input type="checkbox" name="books">Books
+                    <input type="checkbox" name="Phone">Phone
+                    <input type="checkbox" name="Mag">Mag
+                </p>
+                <label>Subjects you like?</label>
+                <select name="Subject Preference">
+                    <option value="1" selected="true">Programming Fundemantals</option>
+                    <option value="2">DSA</option>
+                    <option value="3">DAA</option>
+                </select>
+                </br>
+                </br>
+                <input type="Submit" value="Submit Form">
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>

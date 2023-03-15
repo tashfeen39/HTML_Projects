@@ -1,0 +1,17 @@
+.collapse {
+  background-color: rgb(129, 126, 129);
+}
+.M {
+  background-color: rgb(129, 126, 129);
+}
+
+.T {
+  color: aliceblue;
+}
+.d-flex input {
+  margin-left: 630px;
+}
+.d-flex button {
+  margin-left: 10px;
+  margin-right: 5px;
+}

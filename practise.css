@@ -1,0 +1,78 @@
+/* #myid {
+  color: rgb(245, 0, 0);
+}
+
+.classid {
+  color: rgba(59, 160, 34, 0.568);
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+}
+.backimg {
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+  background-image: url("../images/Hannan.jpg");
+  background-repeat: repeat-y; 
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.backimg1 {
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+  background-image: url("../images/Hannan2.0.jpg");
+  background-repeat: repeat-y;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+#font {
+  font-family: "Akronim", cursive;
+  font-size: 100px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.backimg {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  background-image: url("../images/9.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.backimg1 {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  background-image: url("../images/10.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.backimg2 {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  background-image: url("../images/11.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.backimg3 {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  background-image: url("../images/12.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}

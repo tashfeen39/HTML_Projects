@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  font-family: sans-serif;
+  color: black;
+}
+
+main {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-right: 100px;
+  margin-top: 70px;
+}
+
+.bod {
+  display: flex;
+}
+
+.abt {
+  margin: 1rem 0.3rem;
+  width: 340px;
+}
+
+.proj {
+  margin: 1rem 0.3rem;
+  width: 350px;
+}
+
+.abtme {
+  padding: 0 1rem;
+}
+.abtpara {
+  font-size: 0.9rem;
+}
+
+.edu {
+  padding: 0.15rem 1rem;
+}
+
+.contact {
+  padding: 0 1rem;
+}
+
+.abtheading {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.eduheading {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+.contact h1 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.contact p {
+  font-size: 0.75rem;
+  padding: 0rem 0;
+}
+
+.ed h1 {
+  font-size: 0.9rem;
+}
+
+.ed p {
+  font-size: 0.75rem;
+}
+
+.projects {
+  padding: 0 1rem;
+}
+
+.skills {
+  padding: 0 1rem;
+}
+
+.projectheading {
+  font-size: 1.3rem;
+}
+
+.diff h1 {
+  font-size: 0.9rem;
+}
+
+.diff p {
+  font-size: 0.75rem;
+}
+
+.skills h1 {
+  font-size: 1.3rem;
+}
+
+.skills p {
+  font-size: 0.75rem;
+}
+
+.name h1 {
+  padding: 0 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.info h1 {
+  font-size: 3rem;
+}
+.info h2 {
+  font-size: 1rem;
+}

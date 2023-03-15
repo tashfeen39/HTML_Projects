@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="boostrap.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="M">
+            <a class="navbar-brand" href="#">
+                <div class="T">NavBar</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 py-5">
+                <h1 class="display-1">Hello, World!</h1>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                    natus consequatur earum alias iste harum perferendis corrupti! Ea
+                    optio, corrupti eos non, odit quos deleniti quibusdam vero tempora
+                    magnam eveniet.
+                </p>
+                <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, officia.</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+                    View Details
+                </button>
+            </div>
+            <div class="col-sm-4">
+                <h2>Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, officia.</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+                    View Details
+                </button>
+            </div>
+            <div class="col-sm-4">
+                <h2>Heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, officia.</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+                    View Details
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Column 1 Details</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+                    perspiciatis in dolores quisquam consectetur sunt, molestias
+                    distinctio harum excepturi non maiores recusandae fugit tenetur
+                    culpa blanditiis repellat ipsam. Soluta, incidunt. Rem tempore, quo,
+                    dolor facere odit fuga nesciunt nobis amet soluta quibusdam ea quae
+                    inventore dolorem ex odio reprehenderit! Blanditiis fugiat harum
+                    sit, consequatur eum esse iste animi hic dignissimos beatae,
+                    incidunt corrupti, numquam ab qui libero. Dicta, consequuntur.
+                    Nesciunt, ullam. Magni, ex dolores voluptatem dolor, placeat aperiam
+                    repellat quos beatae aut porro recusandae reiciendis accusamus in
+                    soluta at autem natus sed facere molestiae mollitia nobis quasi
+                    quia! Error est obcaecati unde autem, dignissimos ipsam quisquam
+                    dolorem fugiat similique sit laborum ducimus at beatae ut earum
+                    iusto necessitatibus sed quia perspiciatis quis quasi facilis, sunt
+                    voluptate. Labore praesentium ipsum natus, velit aperiam dolorum
+                    ratione dignissimos beatae vel hic tempore sapiente cum autem,
+                    corporis deserunt, laborum ad! Quidem expedita mollitia beatae! Enim
+                    amet deleniti optio accusamus tenetur alias ducimus quisquam autem,
+                    praesentium velit quis vero quod tempore accusantium tempora ullam
+                    soluta non iure, dignissimos nemo dolorem dolor! Ipsum facilis,
+                    esse, neque reprehenderit, facere rem perspiciatis dolore quia nam
+                    iste dolorem! Blanditiis qui quidem dolorum praesentium consequuntur
+                    inventore ipsam error, maxime laboriosam.
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
