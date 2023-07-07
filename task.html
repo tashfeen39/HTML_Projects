@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="task.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to my portfolio!</h1>
+        <img src="images\download.png" alt="Your name" />
+        <p>
+            <br>
+            I am Tashfeen Zia and I'm a computer science student. I'm passionate about all things tech and love
+            learning about new advancements in the field. In my free time, I enjoy coding personal projects and
+            experimenting with different programming languages. My goal is to become a skilled software developer and
+            contribute to creating innovative solutions that make a positive impact on society.
+        </p>
+    </section>
+
+    <section id="about">
+        <br>
+        <h2>About Me</h2>
+        <br>
+        <p>
+        <h2>EDUCATION</h2>
+        <h3>AIR UNIVERSITY</h3>
+        Bachelors Computer Science, in progress.
+        <h3>HAMZA ARMY SCHOOL AND COLLEGE</h3>
+        FSc, 2018-2020
+        <h3>SIDDEEQ PUBLIC SCHOOL</h3>
+        Matriculation, 2016-2018
+
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <img src="images\download.png" alt="Project 1" />
+            <h3>TICKETS MANAGEMENT SYSTEM</h3>
+            <p>Management system to handle data of different customers for providing tickets in a bus terminal. Using
+                Data Structures and OOP concepts.
+            </p>
+            <a href="https://github.com/" target=”_blank”>View Project</a>
+        </div>
+        <div class="project">
+            <img src="images\download.png" alt="Project 2" />
+            <h3>FOOD DELIVERY APP</h3>
+            <p>Food delivery mobile application like Food Panda that stores data of different restaurants, using Java
+                and Android-Studio.</p>
+            <a href="https://github.com/" target=”_blank”>View Project</a>
+        </div>
+        <div class="project">
+            <img src="images\download.png" alt="Project 3" />
+            <h3>STUDENT PORTAL FOR UNIVERSITY</h3>
+            <p>A portal for university that can store and manage data of all the students and faculty, using .NET and
+                C#.</p>
+            <a href="https://github.com/" target=”_blank”>View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+            <span id="name-error"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+            <span id="email-error"></span>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <span id="message-error"></span>
+
+            <input type="submit" value="Submit" />
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright © 2022 Tashfeen Zia</p>
+    </footer>
+</body>
+<script src="task.js"></script>
+
+</html>
